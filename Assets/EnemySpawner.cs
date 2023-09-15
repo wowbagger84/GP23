@@ -35,6 +35,7 @@ public class EnemySpawner : MonoBehaviour
 
 	void SpawnEnemy()
 	{
+		//increase current number of enemies
 		currentNumberOfEnemies++;
 
 		Vector3 randomPosition = Random.insideUnitCircle * circleArea;
